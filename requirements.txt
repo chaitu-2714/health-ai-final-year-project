@@ -1,0 +1,10 @@
+PyQt5>=5.15.0,<5.16.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+pymupdf>=1.22.0
+spacy>=3.7.0
+matplotlib>=3.7.0
+reportlab>=4.0.0
+requests>=2.31.0
+numpy>=1.24.0
+pyinstaller>=6.4.0

@@ -1,0 +1,6 @@
+{
+    "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "ollama_url": "http://localhost:11434",
+    "ollama_model": "gemma2:2b",
+    "dark_mode": false
+}
