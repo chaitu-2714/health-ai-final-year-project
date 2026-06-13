@@ -1,8 +1,13 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "functions": {
     "api/**/*.py": {
-      "runtime": "python3.11"
+      "runtime": "vercel/python@3.11"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(?!api/.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
